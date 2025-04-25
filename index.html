@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sushank | Portfolio</title>
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/theme.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Inter:wght@400;500;700&display=swap">
+</head>
+<body class="light-theme">
+  <header id="header">
+    <nav class="navbar">
+      <div class="logo">
+        <a href="#home">SY</a>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#certificates" class="nav-link">Certificates</a></li>
+        <li><a href="#resume" class="nav-link">Resume</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <div class="theme-toggle">
+        <button id="theme-toggle-btn" aria-label="Toggle dark mode">
+          <span class="theme-icon light">☀️</span>
+          <span class="theme-icon dark">🌙</span>
+        </button>
+      </div>
+      <div class="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="section home-section">
+      <div class="home-content centered">
+        <div class="home-text">
+          <p class="greeting">Hi there, I'm</p>
+          <h1 class="name">Sushank Yadav</h1>
+          <h2 class="title">Web Developer</h2>
+          <p class="description">A passionate Web Developer creating modern and responsive web applications </p>
+          <a href="#about" class="btn primary-btn">Learn More</a>
+        </div>
+      </div>
+      <div class="scroll-indicator">
+        <a href="#about">
+          <div class="chevron"></div>
+          <div class="chevron"></div>
+          <div class="chevron"></div>
+        </a>
+      </div>
+    </section>
+
+    <section id="about" class="section about-section">
+      <div class="section-container">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+          <div class="about-text">
+            <p>I'm a passionate web developer with expertise in building modern web applications using the latest technologies. With a strong foundation in JavaScript and its ecosystem, I create efficient, scalable, and user-friendly solutions.</p> <p>
+
+              My journey in web development began 3 years ago, and since then I've worked on various projects ranging from simple static websites to complex web applications. I'm constantly learning and adapting to new technologies to stay at the forefront of web development.</p>
+          </div>
+          <div class="about-image">
+            <div class="profile-img-container">
+              <img src="MY-img.jpg" alt="John Doe" class="profile-img">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section skills-section">
+      <div class="section-container">
+        <h2 class="section-title">My Skills</h2>
+        <div class="skills-grid">
+          <div class="skill-item" data-skill="HTML">
+            <div class="skill-icon">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML">
+            </div>
+            <p class="skill-name">HTML</p>
+          </div>
+          <div class="skill-item" data-skill="CSS">
+            <div class="skill-icon">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS">
+            </div>
+            <p class="skill-name">CSS</p>
+          </div>
+          <div class="skill-item" data-skill="JavaScript">
+            <div class="skill-icon">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript">
+            </div>
+            <p class="skill-name">JavaScript</p>
+          </div>
+          <div class="skill-item" data-skill="React">
+            <div class="skill-icon">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React">
+            </div>
+            <p class="skill-name">React</p>
+          </div>
+          <div class="skill-item" data-skill="Node.js">
+            <div class="skill-icon">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js">
+            </div>
+            <p class="skill-name">Node.js</p>
+          </div>
+          <div class="skill-item" data-skill="MongoDB">
+            <div class="skill-icon">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="MongoDB">
+            </div>
+            <p class="skill-name">MongoDB</p>
+          </div>
+          <div class="skill-item" data-skill="Git">
+            <div class="skill-icon">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git">
+            </div>
+            <p class="skill-name">Git</p>
+          </div>
+          <div class="skill-item" data-skill="GitHub">
+            <div class="skill-icon">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub">
+            </div>
+            <p class="skill-name">GitHub</p>
+          </div>
+          <div class="skill-item" data-skill="Python">
+            <div class="skill-icon">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python">
+            </div>
+            <p class="skill-name">Python</p>
+          </div>
+          <div class="skill-item" data-skill="MySQL">
+            <div class="skill-icon">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL">
+            </div>
+            <p class="skill-name">MySQL</p>
+          </div>
+          <div class="skill-item" data-skill="Figma">
+            <div class="skill-icon">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" alt="Figma">
+            </div>
+            <p class="skill-name">Figma</p>
+          </div>
+          <div class="skill-item" data-skill="Firebase">
+            <div class="skill-icon">
+              <img src="https://www.php.net/images/logos/new-php-logo.svg" alt="PHP Logo" width="80" height="auto">
+            </div>
+            <p class="skill-name">PHP</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section projects-section">
+      <div class="section-container">
+        <h2 class="section-title">My Projects</h2>
+        <div class="projects-grid">
+    
+          <!-- Mentor Match -->
+          <div class="project-card">
+            <div class="project-img">
+              <img src="Screenshot (843).png" alt="Mentor Match Project">
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">Mentor-Match</h3>
+              <p class="project-description">
+                A mentor matchmaking platform enabling students to find and book mentors easily. Features user authentication, mentor profiles, booking system, and responsive design.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">ReactJS</span>
+                <span class="tech-tag">NodeJS</span>
+                <span class="tech-tag">ExpressJS</span>
+                <span class="tech-tag">MongoDB</span>
+              </div>
+              <div class="project-links">
+                <!-- <a href="https://mentor-match-demo-link.com" class="btn project-btn" target="_blank">View Project</a> -->
+                <a href="https://github.com/Sushankyadav11/Frontend_project.git" class="btn outline-btn" target="_blank">Source Code</a>
+              </div>
+            </div>
+          </div>
+    
+          <!-- Blogging Website -->
+          <div class="project-card">
+            <div class="project-img">
+              <img src="Screenshot (903).png" alt="Blogging Website Project">
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">Blogging Website</h3>
+              <p class="project-description">
+                A dynamic blogging platform where users can write, edit, and publish blogs with secure authentication and content management system. Optimized for SEO and mobile devices.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">ReactJS</span>
+                <span class="tech-tag">NodeJS</span>
+                <span class="tech-tag">MongoDB</span>
+                <span class="tech-tag">Tailwind CSS</span>
+              </div>
+              <div class="project-links">
+                <!-- <a href="https://blogging-website-demo-link.com" class="btn project-btn" target="_blank">View Project</a> -->
+                <a href="https://github.com/Sushankyadav11/Frontend-Blogging" class="btn outline-btn" target="_blank">Source Code</a>
+              </div>
+            </div>
+          </div>
+    
+          <!-- VOYDR -->
+          <div class="project-card">
+            <div class="project-img">
+              <img src="Screenshot (958).png" alt="VOYDR Project">
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">VOYDR</h3>
+              <p class="project-description">
+                A digital well-being platform for tracking and managing screen time usage. Includes interactive dashboards, weekly productivity insights, and personalized user analytics.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">ReactJS</span>
+                <span class="tech-tag">NodeJS</span>
+                <span class="tech-tag">MongoDB</span>
+                <span class="tech-tag">Tailwind CSS</span>
+              </div>
+              <div class="project-links">
+                <!-- <a href="https://voydr-demo-link.com" class="btn project-btn" target="_blank">View Project</a> -->
+                <a href="https://github.com/Sushankyadav11/Hack-pro" class="btn outline-btn" target="_blank">Source Code</a>
+              </div>
+            </div>
+          </div>
+    
+        </div>
+      </div>
+    </section>
+    
+
+    <section id="certificates" class="section certificates-section">
+      <div class="section-container">
+        <h2 class="section-title">Certificates</h2>
+        <div class="certificates-grid">
+          <div class="certificate-card">
+            <div class="certificate-img">
+              <img src="img1.png" alt="Web Development Certificate">
+            </div>
+            <h3 class="certificate-title">The Bits and Bytes of Computer Networking</h3>
+            <p class="certificate-issuer">Coursera</p>
+            <a href="https://coursera.org/share/9a629653b3fc1b0a85c270887e7034b9" class="btn certificate-btn" target="_blank">View Certificate</a>
+          </div>
+
+          <div class="certificate-card">
+            <div class="certificate-img">
+              <img src="img2.png" alt="JavaScript Certificate">
+            </div>
+            <h3 class="certificate-title">Server side JavaScript with Node.js</h3>
+            <p class="certificate-issuer">Coursera</p>
+            <a href="https://coursera.org/share/8a64391f63ad366d3d85171b69db2e11" class="btn certificate-btn" target="_blank">View Certificate</a>
+          </div>
+
+          <div class="certificate-card">
+            <div class="certificate-img">
+              <img src="img3.png" alt="React Certificate">
+            </div>
+            <h3 class="certificate-title">Building Web Applications in PHP</h3>
+            <p class="certificate-issuer">Coursera</p>
+            <a href="https://coursera.org/share/bf3a76c431d2b790485dca889bb71b45" class="btn certificate-btn" target="_blank">View Certificate</a>
+          </div>
+
+          <div class="certificate-card">
+            <div class="certificate-img">
+              <img src="img4.png" alt="Node.js Certificate">
+            </div>
+            <h3 class="certificate-title">Mastering Data Structures & Algorithms using C and C++</h3>
+            <p class="certificate-issuer">Udemy</p>
+            <a href="https://www.udemy.com/certificate/UC-3bab7cdf-54ec-4139-bae7-94572b92376c/" class="btn certificate-btn" target="_blank">View Certificate</a>
+          </div>
+
+          <div class="certificate-card">
+            <div class="certificate-img">
+              <img src="img5.png" alt="UI/UX Certificate">
+            </div>
+            <h3 class="certificate-title">Computer Architecture and Computer Organization Masterclass</h3>
+            <p class="certificate-issuer">Udemy</p>
+            <a href="https://www.udemy.com/certificate/UC-990ecf83-408b-406f-aeb0-515b212704dd/" class="btn certificate-btn" target="_blank">View Certificate</a>
+          </div>
+
+          <div class="certificate-card">
+            <div class="certificate-img">
+              <img src="img6.png" alt="Python Certificate">
+            </div>
+            <h3 class="certificate-title">Become a Full-Stack Web Developer</h3>
+            <p class="certificate-issuer">LinkedIn</p>
+            <a href="https://www.linkedin.com/learning/certificates/fa3792e5d5cc1a3deecacd2300cc0ea7e2899a23abba88e2e479c05f603d60b9?trk=share_certificate" class="btn certificate-btn" target="_blank">View Certificate</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="resume" class="section resume-section">
+      <div class="section-container">
+        <h2 class="section-title">My Resume</h2>
+    
+        <div class="resume-content">
+          <!-- Left: Resume Details -->
+          <div class="resume-details">
+    
+            <!-- Training Section -->
+            <div class="resume-block">
+              <h3><i class="fas fa-cogs"></i> Trainings</h3>
+    
+              <div class="resume-card">
+                <h4>MERN Stack Development – Cipher Schools</h4>
+                <p class="company">June 2024 – July 2024</p>
+                <ul>
+                  <li>Learnt best practices for building scalable web applications.</li>
+                  <li>Worked on real-world projects using MongoDB, Express.js, React.js, and Node.js.</li>
+                  <li>Built hands-on experience in both frontend and backend development.</li>
+                </ul>
+              </div>
+    
+              <div class="resume-card">
+                <h4>Teaching Intern – NGO</h4>
+                <p class="company">May 2023 – June 2023</p>
+                <ul>
+                  <li>Provided free education to underprivileged students during summer break.</li>
+                  <li>Taught core academic subjects and encouraged learning through engagement.</li>
+                  <li>Contributed to building a positive, impactful learning environment.</li>
+                </ul>
+              </div>
+            </div>
+    
+            <!-- Education Section -->
+            <div class="resume-block">
+              <h3><i class="fas fa-graduation-cap"></i> Education</h3>
+    
+              <div class="resume-card">
+                <h4>Bachelor of Technology (CSE)</h4>
+                <p class="company">Lovely Professional University, Punjab <span class="date">Aug 2022 – Present</span></p>
+                <p>CGPA: 7.5</p>
+              </div>
+    
+              <div class="resume-card">
+                <h4>Intermediate (12th)</h4>
+                <p class="company">Daffodils Public School, Fatehabad <span class="date">2021 – 2022</span></p>
+                <p>Percentage: 83%</p>
+              </div>
+    
+              <div class="resume-card">
+                <h4>Matriculation (10th)</h4>
+                <p class="company">Crescent Public School, Fatehabad <span class="date">2019 – 2020</span></p>
+                <p>Percentage: 88%</p>
+              </div>
+            </div>
+          </div>
+    
+          <div class="resume-actions">
+            <a href="12219787_Sushank_CV.pdf" class="btn primary-btn" target="_blank" id="view-resume-btn">📄 View Full Resume</a>
+            <a href="12219787_Sushank_CV.pdf" class="btn outline-btn" download id="download-resume-btn">⬇️ Download Resume</a>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+    
+    
+
+    <section id="contact" class="section contact-section">
+      <div class="section-container">
+        <h2 class="section-title">Contact Me</h2>
+        <div class="contact-content">
+          <div class="contact-info">
+            <div class="contact-item">
+              <div class="contact-icon">📞</div>
+              <div class="contact-text">
+                <h3>Phone</h3>
+                <p>+91-9817444371</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">📧</div>
+              <div class="contact-text">
+                <h3>Email</h3>
+                <p>yadavsushank2@gmail.com</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">📍</div>
+              <div class="contact-text">
+                <h3>Location</h3>
+                <p>Punjab, India</p>
+              </div>
+            </div>
+            <div class="social-links">
+              <a href="https://github.com/Sushankyadav11" target="_blank" class="social-link" aria-label="GitHub">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub">
+              </a>
+              <a href="https://www.linkedin.com/in/sushankyadav/" target="_blank" class="social-link" aria-label="LinkedIn">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="LinkedIn">
+              </a>
+              <a href="https://x.com/SushankYad45450?t=UND48Jhuod7_4WfuyuF8wQ&s=08" target="_blank" class="social-link" aria-label="Twitter">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/twitter/twitter-original.svg" alt="Twitter">
+              </a>
+              <a href="https://www.instagram.com/sushank_yadav11?igsh=MTcwcHcxaGQwdjQ0Yw==" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram" width="30" height="30">
+              </a>
+              
+              
+            </div>
+          </div>
+          <div class="contact-form-container">
+            <form id="contact-form" class="contact-form">
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Your Email" required>
+              </div>
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+              </div>
+              <button type="submit" class="btn primary-btn submit-btn">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-content">
+      <p>© 2025 Sushank yadav. Built with 💙 using HTML, CSS, JS.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/theme.js"></script>
+  <script src="js/animation.js"></script>
+  <script src="js/form.js"></script>
+</body>
+</html>
